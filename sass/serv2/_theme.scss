@@ -1,0 +1,130 @@
+a.button {
+	margin: 0 20px;
+	line-height: 0;
+	border-style:solid;
+	border-width:7px;
+	border-image:url(../images/theme/button.png) 0 fill / 0 / 2 repeat;
+	&:hover {
+		color:var(--color-primary);
+	}
+}
+
+div.cat_bar {
+	background: url(../images/theme/catbar-o.gif) 0 100% repeat-x;
+	position:relative;
+	height: 36px;
+		display: flex;
+		align-content: center;
+		align-items: center;
+	&::before , &::after{
+		content:"";
+		height: 36px;
+		display:block;
+		position: absolute;
+		top:0px;
+	}
+	&::before{
+		background: url(../images/theme/catbar-l.gif) 0 100% no-repeat;
+		left:0;
+		width:34px;
+	}
+	&::after{
+		background: url(../images/theme/catbar-r.gif) 100% 100% no-repeat;
+		right:0;
+		width: 90px;
+	}
+	.catbg {
+		margin-left:43px;
+		span {
+			z-index: 1;
+			right:40px;
+			position:absolute;
+		}
+	}
+}
+
+.poster {
+	border-style:solid;
+	border-width:7px;
+	border-image:url(../images/theme/profile.png) 0 fill / 0 / 1 repeat;
+	color:var(--color-default-lighte);
+	a {
+		color:var(--color-default-lighte);
+	}
+}
+
+
+
+#hederne {
+	display: flex;
+	height: 115px;
+	padding-top:10px;
+}
+#headere {
+	 position: relative;
+	 width: 100%;
+	 margin:-20px -2px;
+}
+#heade-r {
+	 width: 140px;
+	 background: url(../images/theme/serv2-sag.png) 100% 0 no-repeat;
+}
+#heade-l {
+	width: 140px;
+	background: url(../images/theme/serv2-sol.png) 0 0 no-repeat;
+}
+
+#main_menu{
+	 border-image:url(../images/theme/serv2-orta.png) 30 fill / 1 / 0 repeat;
+	 border-style:solid;
+	 border-width:20px;
+	 border-radius: 20px;
+	 background-color:var(--color-primary);
+}
+#top_section{
+	 border-image:url(../images/theme/serv2-orta-ters.png) 30 fill / 1 / 0 repeat;
+	 border-style:solid;
+	 border-width:12px;
+	 border-radius: 20px;
+}
+
+#mainarea {
+	 margin-left: 24px;
+	 margin-right: 24px;
+	 position: relative;
+}
+#mainsag {
+	 background: url(../images/theme/serv2-tam-sag.png) 100% 0 repeat-y;
+}
+#mainsol {
+	 background: url(../images/theme/serv2-tam-sol.png) 0 0 repeat-y;
+}
+
+#footerne {
+	display: flex;
+	height: 115px;
+	margin-top:-1px;
+}
+#footere {
+	 position: relative;
+	 width: 100%;
+	 border-image:url(../images/theme/serv2-orta.png) 30 fill / 1 / 0 repeat;
+	 border-style:solid;
+	 border-width:20px;
+	 	background-color: var(--color-secondary);
+	 	border-radius: 10px;
+}
+#footere-r {
+	 width: 140px;
+	 background: url(../images/theme/serv2-sag.png) 100% 0 no-repeat;
+	 transform: rotate(90deg);
+}
+#footere-l {
+	width: 140px;
+	background: url(../images/theme/serv2-sol.png) 0 0 no-repeat;
+	transform: rotate(270deg);
+}
+
+#footer {
+	margin:-7px;
+}
