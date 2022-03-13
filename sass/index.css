@@ -1353,13 +1353,13 @@ a.button {
 div.cat_bar {
   background: url(../images/theme/catbar-o.gif) 0 100% repeat-x;
   position: relative;
-  height: 36px;
+  height: 37px;
   display: flex;
   align-content: center;
   align-items: center; }
   div.cat_bar::before, div.cat_bar::after {
     content: "";
-    height: 36px;
+    height: 37px;
     display: block;
     position: absolute;
     top: 0px; }
@@ -1430,7 +1430,7 @@ div.cat_bar {
 
 #footerne {
   display: flex;
-  height: 115px;
+  height: 110px;
   margin-top: -1px; }
 
 #footere {
