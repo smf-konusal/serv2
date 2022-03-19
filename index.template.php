@@ -130,6 +130,11 @@ function template_html_above()
 	*/	
 
 
+	// daha yeni öğrendik mübarekler :) time is : 18.03.2022
+	$serv2_css_load = $settings['theme_url'].'/sass/index.css';
+	loadCSSFile($serv2_css_load, array('external' =>true, 'minimize' => true));
+
+
 	// load in any css from mods or themes so they can overwrite if wanted
 	template_css();
 
